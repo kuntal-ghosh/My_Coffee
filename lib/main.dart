@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'screens/wrapper.dart';
 
 void main() => runApp(MyApp());
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
         appBar: AppBar(
           title: Text('Firebase')
         ),
-        body: Text('hello'),
+        body: Wrapper(),
       )
     );
   }
